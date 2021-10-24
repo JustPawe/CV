@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{gray} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mark Peter} % Your first name
+\familyname{Paveszka} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{}{Manchester, UK}
+% optional, remove / comment the line if not wanted
+\mobile{+44~78~528~02581}  
+\homepage{github.com/JustPawe}{Github Profile: github.com/JustPawe}
+\extrainfo{\homepagesymbol LinkedIn: \httplink{linkedin.com/in/markpaveszka}}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{mark.paveszka@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Experience}
+
+\cventry{2019}{Junior Developer}{Podcast.co}{Manchester, UK}{}{
+PHP Back-end Development - As part of an agile development team, gained experience in working with the Laravel framework, SQL databases and several external services such as AWS S3 or RabbitMQ, by developing MatchMaker.fm, a platform for podcasters.
+}
+
+\cventry{2018}{Tutor}{MyTutor}{Online, UK}{}{
+Teaching - Improved communication skills by teaching Computer Science to A level students 
+}
+
+\cventry{2018}{Analyst}{VBS Group Europe}{Budapest, Hungary}{}{
+Researching sports technologies - Gained an excessive data processing knowledge \newline
+Creating a conceptual plan for a training system - Managed to create and organise projects and which allowed cooperation with other employees.
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2017--2022}{Integrated Masters Degree in Software Engineering with Industrial Experience}{The University of Manchester}{Manchester, UK}{\newline\textit{Second year: overall first class \textbf{(80\%)}, Third year: overall first class \textbf{(77\%)}}}{Modules taken : Object Oriented Programming with Java, Machine Learning, Distributed Computing, Agile Software Engineering, User Experience, Data Engineering, Component Based Software Engineering}  % arguments 3 to 6 can be left empty
+\cventry{2011--2017}{Hungarian Matura Examination }{Szent Istvan High School}{Budapest}{\textit{ \newline Average grade: 92\%}}{}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Programming \& Computer skills}
+\cvitemwithcomment{}{Java, PHP, C\#, HTML, Python, SQL}{Advanced}
+\cvitemwithcomment{}{C, CSS, JavaScript, AWS S3, RabbitMQ}{Experienced}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects \& Extracurricular Activities}
+
+\cvlistitem{Third year project: Computer Science Education for Secondary School Students: Taught modern web development practices to A-level students. \textbf{Achieved an overall mark of 82\% }}
+\cvlistitem{Hulme Hall JCR App: An App for the residents of Hulme Hall to view upcoming activities (2019)}
+\cvlistitem{General Secretary of the Hungarian Society at University (2018-2020)}
+\cvlistitem{General Secretary of Crackchester - Cybersecurity Society (2019-2020)}
+\cvlistitem{President of Crackchester - Cybersecurity Society (2018-2019 \& 2020-2022)}
+\cvlistitem{2nd Year Student Representative at University (2018-2019)}
+\cvlistitem{Events Secretary of Hulme Hall (Student Accommodation) (2018-2019)}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\cvitemwithcomment{}{English}{Fluent}
+\cvitemwithcomment{}{Hungarian}{Native speaker}
+\cvitemwithcomment{}{Spanish}{Beginner}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
